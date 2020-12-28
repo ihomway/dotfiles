@@ -15,7 +15,7 @@ set nocompatible
 syntax on
 
 " Disable the default Vim startup message.
-set shortmess+=I
+" set shortmess+=I
 
 " Show line numbers.
 set number
@@ -78,3 +78,6 @@ inoremap <Left>  <ESC>:echoe "Use h"<CR>
 inoremap <Right> <ESC>:echoe "Use l"<CR>
 inoremap <Up>    <ESC>:echoe "Use k"<CR>
 inoremap <Down>  <ESC>:echoe "Use j"<CR>
+
+set list listchars=extends:❯,precedes:❮,tab:▸\ ,trail:˽
+set tabstop=4
