@@ -1,0 +1,30 @@
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+# set RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+set opdir (brew --prefix openssl@1.1)
+set -x RUBY_CONFIGURE_OPTS "--with-openssl-dir=$opdir"
+status --is-interactive; and source (rbenv init -|psub)
+status --is-interactive; and source (pyenv init -|psub)
+set -x loktar_dir "/Users/puer/Developer/Sources/loktar/"
+set -x mtc_dir "/Users/puer/Developer/Sources/loktar/srcs/app/mtc-biz/"
+set -x mtc_hd_dir "/Users/puer/Developer/Sources/loktar/srcs/app/mtc-hd-biz/"
+set -g fish_user_paths "$loktar_dir" $fish_user_paths
+# zlib
+set -gx LDFLAGS "-L/usr/local/opt/zlib/lib"
+set -gx CPPFLAGS "-I/usr/local/opt/zlib/include"
+set -gx PKG_CONFIG_PATH "/usr/local/opt/zlib/lib/pkgconfig"# ghcup-env
+set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
+test -f /Users/puer/.ghcup/env ; and set -gx PATH $HOME/.cabal/bin /Users/puer/.ghcup/bin $PATH
+
+# apple llvm to homebrew llvm
+set -gx LDFLAGS "-L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib"
+set -gx CPPFLAGS "-I/usr/local/opt/llvm/include"
+set -g fish_user_paths "/usr/local/opt/llvm/bin" $fish_user_paths
+
+# add openssl@1.1
+set -gx LDFLAGS "-L/usr/local/opt/openssl@1.1/lib"
+set -gx CPPFLAGS "-I/usr/local/opt/openssl@1.1/include"
+set -gx PKG_CONFIG_PATH "/usr/local/opt/openssl@1.1/lib/pkgconfig"
+
+# add openjdk@11
+set -g fish_user_paths "/usr/local/opt/openjdk@11/bin" $fish_user_paths
