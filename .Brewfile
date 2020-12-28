@@ -1,139 +1,44 @@
-ack
-adns
-aom
-aria2
-autoconf
-bat
-bazel
-bdw-gc
-c-ares
-cairo
-capstone
-carthage
-cmake
-cocoapods
-dav1d
-docbook
-docbook-xsl
-ffmpeg
-fish
-flac
-fontconfig
-freetype
-frei0r
-fribidi
-gdbm
-gettext
-gh
-ghostscript
-giflib
-git-lfs
-glfw
-glib
-glm
-gmp
-gnu-getopt
-gnupg
-gnutls
-go
-gobject-introspection
-graphite2
-grpcurl
-guile
-harfbuzz
-hugo
-icu4c
-ilmbase
-imagemagick
-jemalloc
-jpeg
-lame
-leptonica
-libass
-libassuan
-libbluray
-libde265
-libev
-libevent
-libffi
-libgcrypt
-libgpg-error
-libheif
-libidn2
-libksba
-liblqr
-libmagic
-libogg
-libomp
-libpng
-libsamplerate
-libsndfile
-libsoxr
-libssh2
-libtasn1
-libtiff
-libtool
-libunistring
-libusb
-libvidstab
-libvorbis
-libvpx
-libzip
-little-cms2
-llvm
-lzo
-mint
-mitmproxy
-ncurses
-nettle
-nghttp2
-nlohmann-json
-node
-npth
-opencore-amr
-openexr
-openjdk@11
-openjpeg
-openssl@1.1
-opus
-p11-kit
-pcre
-pcre2
-pinentry
-pixman
-pkg-config
-prettier
-protobuf
-pyenv
-python@3.8
-python@3.9
-rav1e
-rbenv
-readline
-rtmpdump
-rubberband
-ruby-build
-sdl2
-shared-mime-info
-snappy
-speex
-sqlite
-srt
-swiftlint
-tesseract
-theora
-tldr
-tmux
-tokei
-tree
-unbound
-utf8proc
-w3m
-webp
-x264
-x265
-xmlto
-xvid
-xz
-yadm
-zlib
+tap "homebrew/bundle"
+tap "homebrew/cask"
+tap "homebrew/core"
+brew "ack"
+brew "aria2"
+brew "bat"
+brew "bazel"
+brew "sqlite"
+brew "python@3.9"
+brew "capstone"
+brew "carthage"
+brew "cmake"
+brew "cocoapods"
+brew "ffmpeg"
+brew "fish"
+brew "gh"
+brew "git-lfs"
+brew "glfw"
+brew "glm"
+brew "gnupg"
+brew "go"
+brew "grpcurl"
+brew "hugo"
+brew "imagemagick"
+brew "libmagic"
+brew "llvm"
+brew "mint"
+brew "mitmproxy"
+brew "nlohmann-json"
+brew "node"
+brew "prettier"
+brew "pyenv"
+brew "ruby-build"
+brew "rbenv"
+brew "swiftlint"
+brew "tldr"
+brew "tmux"
+brew "tokei"
+brew "tree"
+brew "w3m"
+brew "yadm"
+brew "zlib"
+cask "bloomrpc"
+cask "swiftformat-for-xcode"
