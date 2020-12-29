@@ -1,10 +1,12 @@
 
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
-# set RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@1.1)"
+test -d "/opt/homebrew/bin" ; and set -g fish_user_paths "/opt/homebrew/bin" $fish_user_paths
+
 set opdir (brew --prefix openssl@1.1)
 set -x RUBY_CONFIGURE_OPTS "--with-openssl-dir=$opdir"
 status --is-interactive; and source (rbenv init -|psub)
 status --is-interactive; and source (pyenv init -|psub)
+# workspace
 set -x loktar_dir "/Users/puer/Developer/Sources/loktar/"
 set -x mtc_dir "/Users/puer/Developer/Sources/loktar/srcs/app/mtc-biz/"
 set -x mtc_hd_dir "/Users/puer/Developer/Sources/loktar/srcs/app/mtc-hd-biz/"
