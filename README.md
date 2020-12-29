@@ -1,5 +1,5 @@
 # dotfiles
-This repo list almost all the configuration and functions that I'm using across all my devices.
+This repo list almost all the configurations and functions that I'm using across all my devices.
 
 ## How to use it?
 
