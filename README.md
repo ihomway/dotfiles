@@ -21,4 +21,5 @@ This repo list almost all the configurations and functions that I'm using across
   ```
 
 ⚠️ *It's my git info in .gitconfig, you must change it.*
+
 For more infomation about **yamd**, please visit [yamd.io](https://yadm.io/)
