@@ -1,1 +1,3 @@
 .ssh/config
+~/Developer/Certs/Certificates.p12
+~/Developer/Certs/wildcard.mobileprovision
