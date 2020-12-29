@@ -28,3 +28,4 @@ set -gx PKG_CONFIG_PATH "/usr/local/opt/openssl@1.1/lib/pkgconfig"
 
 # add openjdk@11
 set -g fish_user_paths "/usr/local/opt/openjdk@11/bin" $fish_user_paths
+set -x GPG_TTY (tty)
