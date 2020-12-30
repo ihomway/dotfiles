@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "plutil -lint *.strings",
+    "uid" : "9D905AB3-7E89-4E7E-ABF9-B70EAF26D062",
+    "name" : "Check if Localizable.strings file is valid\n\nCheck if Localizable.strings file is valid",
+    "keyword" : "CheckLocalization"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES",
+    "uid" : "5CC81BDE-F878-428B-A3A0-4C8627CDBCFE",
+    "name" : "Show Build Duration",
+    "keyword" : "macxcodeduration"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "s.subspec '<#Subspec Name#>' do |<#var#>|\n\t<#expression#>\nend\n",
+    "uid" : "A8629AAC-E522-43E7-8B41-6E7DD001B4E5",
+    "name" : "subspec",
+    "keyword" : "subspec"
+  }
+}

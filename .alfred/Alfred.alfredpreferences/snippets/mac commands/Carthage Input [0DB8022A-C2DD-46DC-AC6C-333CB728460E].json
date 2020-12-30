@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "$(SRCROOT)\/Carthage\/Build\/iOS\/",
+    "uid" : "0DB8022A-C2DD-46DC-AC6C-333CB728460E",
+    "name" : "Carthage Input",
+    "keyword" : "carthage-input"
+  }
+}

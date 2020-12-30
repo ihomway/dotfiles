@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "#!\/usr\/bin\/env python3\n# -*- coding: utf-8 -*-\n\n' a test module '",
+    "uid" : "C2BB6FD5-92DF-463E-8034-A3265F0401F1",
+    "name" : "module template",
+    "keyword" : "template"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "__attribute__((deprecated(<#comment#>)))",
+    "uid" : "5DDB02BC-3B60-459A-AB10-E29AB1041E21",
+    "name" : "deprecated",
+    "keyword" : "deprecated"
+  }
+}

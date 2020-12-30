@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "source 'https:\/\/cdn.cocoapods.org\/'\nsource 'git@git.tutorabc.com:WT\/SDK\/iTutorSpecs.git'\nsource 'https:\/\/github.com\/aliyun\/aliyun-specs.git'",
+    "uid" : "FAC0B31E-8B7D-4D1C-8276-DF58B61216CD",
+    "name" : "Pod Source",
+    "keyword" : "pod_source"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "__strong typeof(wSelf) self = wSelf;",
+    "uid" : "E330965C-7A12-49E9-8F85-1C1B0CAEAD38",
+    "name" : "Strong Self",
+    "keyword" : "strongself"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "git flow hotfix start ",
+    "uid" : "F2D16A3B-8FF6-44AA-8FE0-E4A0F843F1CB",
+    "name" : "Start A Hotfix",
+    "keyword" : "start_hotfix"
+  }
+}

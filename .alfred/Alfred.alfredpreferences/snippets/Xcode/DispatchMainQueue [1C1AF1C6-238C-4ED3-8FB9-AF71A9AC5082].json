@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "dispatch_async(dispatch_get_main_queue(), ^{\n\t<#statements#>\n});",
+    "uid" : "1C1AF1C6-238C-4ED3-8FB9-AF71A9AC5082",
+    "name" : "DispatchMainQueue",
+    "keyword" : "MainQueue"
+  }
+}

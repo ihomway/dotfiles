@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "shasum -a 256 ",
+    "uid" : "D78821F2-1BA7-44C3-91B1-A4F6FEFD0272",
+    "name" : "sha256",
+    "keyword" : "sha256"
+  }
+}

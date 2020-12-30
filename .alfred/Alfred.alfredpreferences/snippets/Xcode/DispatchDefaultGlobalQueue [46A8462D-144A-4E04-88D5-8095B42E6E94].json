@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{\n\t<#statements#>\n});",
+    "uid" : "46A8462D-144A-4E04-88D5-8095B42E6E94",
+    "name" : "DispatchDefaultGlobalQueue",
+    "keyword" : "DefaultQueue"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "alfredsnippet" : {
+    "snippet" : "export https_proxy=http:\/\/127.0.0.1:1235;export http_proxy=http:\/\/127.0.0.1:1235",
+    "uid" : "578B1B91-7078-45A1-ABD2-36F45453CBE3",
+    "name" : "Terminal Proxy",
+    "keyword" : "proxy"
+  }
+}
