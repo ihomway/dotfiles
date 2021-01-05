@@ -31,6 +31,7 @@ setup_iterm() {
 setup_submodules() {
 	echo "Init submodules"
 	yadm submodule update --recursive --init
+	ln -s -f .tmux/.tmux.conf
 }
 
 if [[ "$system_type" = "Darwin" ]]; then
