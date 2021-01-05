@@ -27,7 +27,14 @@ setup_iterm() {
   	fi
 }
 
+#submodules
+setup_submodules() {
+	echo "Init submodules"
+	yadm submodule update --recursive --init
+}
+
 if [[ "$system_type" = "Darwin" ]]; then
+	setup_submodules
 	setup_brew
 	setup_iterm
 fi
