@@ -32,6 +32,9 @@ setup_submodules() {
 	echo "Init submodules"
 	yadm submodule update --recursive --init
 	ln -s -f .tmux/.tmux.conf
+	if [[ ! -f "$HOME"/.tmux.conf.local ]]; then
+		cp .tmux/.tmux.conf.local "$HOME"/.tmux.conf.local
+	fi
 }
 
 if [[ "$system_type" = "Darwin" ]]; then
