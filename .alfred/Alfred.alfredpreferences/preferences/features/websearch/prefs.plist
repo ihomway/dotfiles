@@ -4,6 +4,19 @@
 <dict>
 	<key>customSites</key>
 	<dict>
+		<key>03B06F20-EDEF-4D17-A614-55A3E646F724</key>
+		<dict>
+			<key>enabled</key>
+			<true/>
+			<key>keyword</key>
+			<string>deepl</string>
+			<key>text</key>
+			<string>Translate '{query}' to Chinese</string>
+			<key>url</key>
+			<string>https://www.deepl.com/translator#en/zh/{query}</string>
+			<key>utf8</key>
+			<true/>
+		</dict>
 		<key>34E0D3A0-BF1F-4052-BC18-2D73FF0033C6</key>
 		<dict>
 			<key>enabled</key>
