@@ -1,3 +1,3 @@
 function bo --description 'alias for brew oudated'
-command brew outdated
+command brew outdated $argv
 end
