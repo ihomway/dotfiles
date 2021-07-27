@@ -1,3 +1,1 @@
-function br --description 'alias for brew update'
-command brew update $argv
-end
+/Users/puer/Library/Application Support/org.dystroy.broot/launcher/fish/br.fish

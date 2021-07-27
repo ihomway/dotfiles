@@ -5,7 +5,8 @@ test -d "/opt/homebrew/bin" ; and set -g fish_user_paths "/opt/homebrew/bin" $fi
 set opdir (brew --prefix openssl@1.1)
 set -x RUBY_CONFIGURE_OPTS "--with-openssl-dir=$opdir"
 status --is-interactive; and source (rbenv init -|psub)
-status --is-interactive; and source (pyenv init -|psub)
+status is-login; and pyenv init --path | source
+pyenv init - | source
 # workspace
 set -x loktar_dir "/Users/puer/Developer/bilibili/loktar/"
 set -x mtc_dir "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-biz/"
