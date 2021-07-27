@@ -4,11 +4,12 @@
 --binarygrouping 4,8
 --categorymark "MARK: %c"
 --classthreshold 0
---closingparen balanced
---commas always
+--closingparen same-line
+--commas inline
 --conflictmarkers reject
 --decimalgrouping 3,6
 --elseposition same-line
+--emptybraces no-space
 --enumthreshold 0
 --exponentcase lowercase
 --exponentgrouping disabled
@@ -17,9 +18,9 @@
 --extensionmark "MARK: - %t + %c"
 --fractiongrouping disabled
 --fragment false
---funcattributes preserve
+--funcattributes prev-line
 --groupedextension "MARK: %c"
---guardelse same-line
+--guardelse auto
 --header ignore
 --hexgrouping 4,8
 --hexliteralcase uppercase
@@ -53,9 +54,9 @@
 --tabwidth unspecified
 --trailingclosures 
 --trimwhitespace always
---typeattributes preserve
+--typeattributes prev-line
 --typemark "MARK: - %t"
---varattributes preserve
+--varattributes same-line
 --voidtype void
 --wraparguments preserve
 --wrapcollections preserve
@@ -65,4 +66,4 @@
 --xcodeindentation disabled
 --yodaswap always
 --disable trailingCommas,wrapMultilineStatementBraces
---enable isEmpty,markTypes,organizeDeclarations,wrapEnumCases
+--enable isEmpty,markTypes,organizeDeclarations,wrapEnumCases,wrapSwitchCases
