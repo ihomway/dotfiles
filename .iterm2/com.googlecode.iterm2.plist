@@ -1231,6 +1231,10 @@
 	<integer>5</integer>
 	<key>TabViewType</key>
 	<integer>0</integer>
+	<key>ToolbeltTools</key>
+	<array>
+		<string>Profiles</string>
+	</array>
 	<key>UseBorder</key>
 	<false/>
 	<key>VisualIndicatorForEsc</key>
