@@ -10,10 +10,12 @@
 	cmd = "code --wait --diff $LOCAL $REMOTE"
 [init]
 	defaultBranch = master
+[pull]
+	rebase = false
+[core]
+	pager = git-split-diffs --color | less -RFX
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
-[pull]
-	rebase = false
