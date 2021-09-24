@@ -7,11 +7,13 @@ set -x RUBY_CONFIGURE_OPTS "--with-openssl-dir=$opdir"
 status --is-interactive; and source (rbenv init -|psub)
 status is-login; and pyenv init --path | source
 pyenv init - | source
+
 # workspace
 set -x loktar_dir "/Users/puer/Developer/bilibili/loktar/"
 set -x mtc_dir "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-biz/"
 set -x mtc_hd_dir "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-hd-biz/"
 set -g fish_user_paths "$loktar_dir" $fish_user_paths
+
 # zlib
 set -gx LDFLAGS "-L/usr/local/opt/zlib/lib"
 set -gx CPPFLAGS "-I/usr/local/opt/zlib/include"
@@ -35,3 +37,7 @@ set -x GPG_TTY (tty)
 
 # use gmake as make
 set -g fish_user_paths "/usr/local/opt/make/libexec/gnubin" $fish_user_paths
+
+# golang
+set -gx GOPATH "/Users/puer/Developer/go"
+set -g fish_user_paths (go env GOPATH) $fish_user_paths
