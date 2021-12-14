@@ -9,10 +9,10 @@ status is-login; and pyenv init --path | source
 pyenv init - | source
 
 # workspace
-set -x loktar_dir "/Users/puer/Developer/bilibili/loktar/"
-set -x mtc_dir "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-biz/"
-set -x mtc_hd_dir "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-hd-biz/"
-set -g fish_user_paths "$loktar_dir" $fish_user_paths
+set -x loktar "/Users/puer/Developer/bilibili/loktar/"
+set -x mtc "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-biz/"
+set -x mtc_hd "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-hd-biz/"
+set -g fish_user_paths "$loktar" $fish_user_paths
 
 # zlib
 set -gx LDFLAGS "-L/usr/local/opt/zlib/lib"
