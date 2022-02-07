@@ -1,8 +1,8 @@
 function bbc --description 'Create new branch under loktar and mtc'
 set dir (pwd)
-cd $loktar_dir
+cd $loktar
 git checkout -b $argv[1] --no-track $argv[2]
-cd $mtc_dir
+cd $mtc
 git checkout -b $argv[1] --no-track $argv[2]
 cd $dir
 end
