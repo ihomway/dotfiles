@@ -1,11 +1,13 @@
+--acronyms ID,URL,UUID
 --allman false
 --assetliterals visual-width
 --beforemarks 
 --binarygrouping 4,8
 --categorymark "MARK: %c"
 --classthreshold 0
---closingparen same-line
---commas inline
+--closingparen balanced
+--closurevoid remove
+--commas always
 --conflictmarkers reject
 --decimalgrouping 3,6
 --elseposition same-line
@@ -18,9 +20,9 @@
 --extensionmark "MARK: - %t + %c"
 --fractiongrouping disabled
 --fragment false
---funcattributes prev-line
+--funcattributes preserve
 --groupedextension "MARK: %c"
---guardelse auto
+--guardelse same-line
 --header ignore
 --hexgrouping 4,8
 --hexliteralcase uppercase
@@ -28,8 +30,11 @@
 --importgrouping alpha
 --indent 4
 --indentcase false
+--indentstrings false
 --lifecycle 
+--lineaftermarks true
 --linebreaks lf
+--markcategories true
 --markextensions always
 --marktypes always
 --maxwidth none
@@ -39,7 +44,7 @@
 --nowrapoperators 
 --octalgrouping 4,8
 --operatorfunc spaced
---organizetypes class,enum,struct
+--organizetypes actor,class,enum,struct
 --patternlet hoist
 --ranges spaced
 --redundanttype inferred
@@ -50,20 +55,22 @@
 --smarttabs enabled
 --stripunusedargs always
 --structthreshold 0
---swiftversion 5.3
+--swiftversion 5.6
 --tabwidth unspecified
 --trailingclosures 
 --trimwhitespace always
---typeattributes prev-line
+--typeattributes preserve
 --typemark "MARK: - %t"
---varattributes same-line
+--varattributes preserve
 --voidtype void
 --wraparguments preserve
 --wrapcollections preserve
 --wrapconditions preserve
---wrapparameters preserve
+--wrapparameters default
 --wrapreturntype preserve
+--wrapternary default
+--wraptypealiases preserve
 --xcodeindentation disabled
 --yodaswap always
---disable trailingCommas,wrapMultilineStatementBraces
---enable isEmpty,markTypes,organizeDeclarations,wrapEnumCases,wrapSwitchCases
+--disable trailingCommas,wrapAttributes,wrapMultilineStatementBraces
+--enable isEmpty,markTypes,organizeDeclarations,wrapEnumCases
