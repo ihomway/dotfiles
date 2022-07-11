@@ -27,3 +27,6 @@ set -g fish_user_paths (go env GOPATH) $fish_user_paths
 
 # set vim as the default editpr
 set -gx EDITOR (which vim)
+
+# mint
+set -g fish_user_paths "/Users/puer/.mint/bin" $fish_user_paths
