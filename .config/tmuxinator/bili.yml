@@ -47,8 +47,7 @@ name: puer
 windows:
   - workspace:
     root: ~/
-  - bilibili:
-      layout: even-vertical
-      panes:
-        - cd $loktar && git fetch -p
-        - cd $mtc && git fetch -p
+  - loktar:
+      root: ~/Developer/bilibili/loktar
+  - mtc:
+      root: ~/Developer/bilibili/loktar/srcs/app/mtc-biz
