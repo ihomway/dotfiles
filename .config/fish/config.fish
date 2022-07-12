@@ -30,3 +30,7 @@ set -gx EDITOR (which vim)
 
 # mint
 set -g fish_user_paths "/Users/puer/.mint/bin" $fish_user_paths
+
+# Starship
+starship init fish | source
+
