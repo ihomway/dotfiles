@@ -3,7 +3,8 @@
 [merge]
 	tool = vscode
 [mergetool "vscode"]
-	cmd = "code --wait --merge $REMOTE $LOCAL $BASE $MERGED"
+	# cmd = "code --wait --merge $REMOTE $LOCAL $BASE $MERGED"
+  cmd = "code --wait $MERGED"
 [diff]
 	tool = vscode
 [difftool "vscode"]
