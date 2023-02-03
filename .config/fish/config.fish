@@ -1,7 +1,7 @@
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 test -d "/opt/homebrew/bin" ; and set -g fish_user_paths "/opt/homebrew/bin" $fish_user_paths
 test -d "/opt/homebrew/sbin" ; and set -g fish_user_paths "/opt/homebrew/sbin" $fish_user_paths
-test -d "/opt/homebrew/lib" ; and set -g fish_user_paths "/opt/homebrew/lib" $fish_user_paths
+# test -d "/opt/homebrew/lib" ; and set -g fish_user_paths "/opt/homebrew/lib" $fish_user_paths
 
 status --is-interactive; and source (rbenv init -|psub)
 status is-login; and pyenv init --path | source
