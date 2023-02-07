@@ -34,3 +34,9 @@ set -g fish_user_paths "/Users/puer/.mint/bin" $fish_user_paths
 # Starship
 starship init fish | source
 
+# https://github.com/jhillyerd/plugin-git/issues/90
+set -e __git_plugin_initialized
+__git.init
+
+# Enable Vi Mode
+fish_vi_key_bindings
