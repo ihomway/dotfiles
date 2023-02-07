@@ -7,11 +7,12 @@
 --classthreshold 0
 --closingparen balanced
 --closurevoid remove
---commas always
+--commas inline
 --conflictmarkers reject
 --decimalgrouping 3,6
 --elseposition same-line
 --emptybraces no-space
+--enumnamespaces always
 --enumthreshold 0
 --exponentcase lowercase
 --exponentgrouping disabled
@@ -21,6 +22,7 @@
 --fractiongrouping disabled
 --fragment false
 --funcattributes preserve
+--generictypes 
 --groupedextension "MARK: %c"
 --guardelse same-line
 --header ignore
@@ -53,6 +55,7 @@
 --semicolons inline
 --shortoptionals always
 --smarttabs enabled
+--someAny true
 --stripunusedargs always
 --structthreshold 0
 --swiftversion 5.6
@@ -60,6 +63,7 @@
 --trailingclosures 
 --trimwhitespace always
 --typeattributes preserve
+--typeblanklines remove
 --typemark "MARK: - %t"
 --varattributes preserve
 --voidtype void
@@ -72,5 +76,5 @@
 --wraptypealiases preserve
 --xcodeindentation disabled
 --yodaswap always
---disable trailingCommas,wrapAttributes,wrapMultilineStatementBraces
---enable isEmpty,markTypes,organizeDeclarations,wrapEnumCases
+--disable wrapAttributes,wrapMultilineStatementBraces
+--enable isEmpty,markTypes,organizeDeclarations,sortedSwitchCases,wrapEnumCases
