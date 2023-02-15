@@ -4,8 +4,6 @@ test -d "/opt/homebrew/sbin" ; and set -g fish_user_paths "/opt/homebrew/sbin" $
 # test -d "/opt/homebrew/lib" ; and set -g fish_user_paths "/opt/homebrew/lib" $fish_user_paths
 
 status --is-interactive; and source (rbenv init -|psub)
-status is-login; and pyenv init --path | source
-pyenv init - | source
 
 # workspace
 set -x loktar "/Users/puer/Developer/bilibili/loktar/"
