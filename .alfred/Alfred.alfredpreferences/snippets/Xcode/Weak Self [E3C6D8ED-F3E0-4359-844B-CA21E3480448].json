@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "__weak typeof(self) wSelf = self;",
-    "uid" : "E3C6D8ED-F3E0-4359-844B-CA21E3480448",
-    "name" : "Weak Self",
-    "keyword" : "weakself"
-  }
-}

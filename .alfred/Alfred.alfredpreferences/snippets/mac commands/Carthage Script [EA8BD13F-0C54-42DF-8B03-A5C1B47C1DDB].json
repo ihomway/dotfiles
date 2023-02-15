@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "\/usr\/local\/bin\/carthage copy-frameworks",
-    "uid" : "EA8BD13F-0C54-42DF-8B03-A5C1B47C1DDB",
-    "name" : "Carthage Script",
-    "keyword" : "carthage-copy"
-  }
-}

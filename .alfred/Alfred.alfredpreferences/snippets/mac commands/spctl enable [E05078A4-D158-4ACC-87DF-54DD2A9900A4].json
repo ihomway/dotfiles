@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "sudo spctl --master-enable",
-    "uid" : "E05078A4-D158-4ACC-87DF-54DD2A9900A4",
-    "name" : "spctl enable",
-    "keyword" : "spctl enable"
-  }
-}

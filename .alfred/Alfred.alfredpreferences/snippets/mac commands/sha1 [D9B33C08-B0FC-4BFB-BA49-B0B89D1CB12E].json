@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "shasum -a 1 ",
-    "uid" : "D9B33C08-B0FC-4BFB-BA49-B0B89D1CB12E",
-    "name" : "sha1",
-    "keyword" : "sha1"
-  }
-}

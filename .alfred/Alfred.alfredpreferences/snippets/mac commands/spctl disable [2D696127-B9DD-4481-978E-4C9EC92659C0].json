@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "sudo spctl --master-disable",
-    "uid" : "2D696127-B9DD-4481-978E-4C9EC92659C0",
-    "name" : "spctl disable",
-    "keyword" : "spctl disable"
-  }
-}

@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "git flow release start",
-    "uid" : "03200F6E-811E-4258-AFAC-B3D8BE52581A",
-    "name" : "Start A Release",
-    "keyword" : "start_release"
-  }
-}

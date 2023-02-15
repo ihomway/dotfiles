@@ -1,8 +1,0 @@
-{
-  "alfredsnippet" : {
-    "snippet" : "$(BUILT_PRODUCTS_DIR)\/$(FRAMEWORKS_FOLDER_PATH)\/",
-    "uid" : "1BDBC9DF-D6CD-4E15-BB85-55A7C8D1442E",
-    "name" : "Carthage Output",
-    "keyword" : "carthage-output"
-  }
-}
