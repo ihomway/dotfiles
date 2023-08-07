@@ -7,7 +7,6 @@ test -d "/opt/homebrew/sbin" ; and set -g fish_user_paths "/opt/homebrew/sbin" $
 set -x loktar "/Users/puer/Developer/bilibili/loktar/"
 set -x mtc "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-biz/"
 set -x mtc_hd "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-hd-biz/"
-set -g fish_user_paths "$loktar" $fish_user_paths
 
 # ghcup
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
