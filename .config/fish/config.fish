@@ -13,7 +13,8 @@ set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
 test -f /Users/puer/.ghcup/env ; and set -gx PATH $HOME/.cabal/bin /Users/puer/.ghcup/bin $PATH
 
 # add openjdk@11
-set -g fish_user_paths "/usr/local/opt/openjdk@11/bin" $fish_user_paths
+set -g fish_user_paths "/opt/homebrew/opt/openjdk/bin" $fish_user_paths
+set -gx CPPFLAGS "-I/opt/homebrew/opt/openjdk/include"
 set -x GPG_TTY (tty)
 
 # golang
@@ -35,3 +36,6 @@ __git.init
 
 # Enable Vi Mode
 fish_vi_key_bindings
+source /opt/homebrew/opt/asdf/libexec/asdf.fish
+set -gx  LC_ALL en_US.UTF-8
+set -gx  LANG en_US.UTF-8
