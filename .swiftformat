@@ -56,10 +56,10 @@
 --semicolons inline
 --shortoptionals always
 --smarttabs enabled
---someAny true
+--someany true
 --stripunusedargs always
 --structthreshold 0
---swiftversion 5.7
+--swiftversion 5.8
 --tabwidth unspecified
 --throwcapturing 
 --trailingclosures 
@@ -78,7 +78,7 @@
 --wrapreturntype preserve
 --wrapternary default
 --wraptypealiases preserve
---xcodeindentation disabled
+--xcodeindentation enabled
 --yodaswap always
 --disable wrapAttributes,wrapMultilineStatementBraces
---enable blankLineAfterImports,isEmpty,markTypes,organizeDeclarations,sortedSwitchCases,wrapEnumCases
+--enable blankLineAfterImports,isEmpty,markTypes,organizeDeclarations,wrapEnumCases
