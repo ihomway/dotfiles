@@ -39,3 +39,6 @@ fish_vi_key_bindings
 source /opt/homebrew/opt/asdf/libexec/asdf.fish
 set -gx  LC_ALL en_US.UTF-8
 set -gx  LANG en_US.UTF-8
+
+# ANDROID_HOME
+set -gx ANDROID_HOME "/Users/puer/Library/Android/sdk"
