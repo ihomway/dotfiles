@@ -1,12 +1,12 @@
 [include]
 	path = ~/.gitconfig.local
 [merge]
-	tool = vscode
+	tool = Kaleidoscope
 [mergetool "vscode"]
 	# cmd = "code --wait --merge $REMOTE $LOCAL $BASE $MERGED"
   cmd = "code --wait $MERGED"
 [diff]
-	tool = vscode
+	tool = Kaleidoscope
 [difftool "vscode"]
 	cmd = "code --wait --diff $LOCAL $REMOTE"
 [init]
@@ -15,8 +15,19 @@
 	rebase = true
 [core]
 	pager = git-split-diffs --color | less -RFX
+	quotepath = false
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+[difftool "Kaleidoscope"]
+	cmd = ksdiff --partial-changeset --relative-path \"$MERGED\" -- \"$LOCAL\" \"$REMOTE\"
+[difftool]
+	prompt = false
+	trustExitCode = true
+[mergetool "Kaleidoscope"]
+	cmd = ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
+[mergetool]
+	prompt = false
