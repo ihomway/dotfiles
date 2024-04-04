@@ -1,12 +1,12 @@
 [include]
 	path = ~/.gitconfig.local
 [merge]
-	tool = Kaleidoscope
+	tool = vscode
 [mergetool "vscode"]
 	# cmd = "code --wait --merge $REMOTE $LOCAL $BASE $MERGED"
   cmd = "code --wait $MERGED"
 [diff]
-	tool = Kaleidoscope
+	tool = vscode
 [difftool "vscode"]
 	cmd = "code --wait --diff $LOCAL $REMOTE"
 [init]
