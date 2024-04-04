@@ -1,5 +1,6 @@
 --acronyms ID,URL,UUID
 --allman false
+--anonymousforeach convert
 --assetliterals visual-width
 --asynccapturing 
 --beforemarks 
@@ -46,6 +47,7 @@
 --nospaceoperators 
 --nowrapoperators 
 --octalgrouping 4,8
+--onelineforeach ignore
 --operatorfunc spaced
 --organizetypes actor,class,enum,struct
 --patternlet hoist
@@ -59,7 +61,7 @@
 --someany true
 --stripunusedargs always
 --structthreshold 0
---swiftversion 5.8
+--swiftversion 5.9
 --tabwidth unspecified
 --throwcapturing 
 --trailingclosures 
@@ -80,5 +82,5 @@
 --wraptypealiases preserve
 --xcodeindentation enabled
 --yodaswap always
---disable wrapAttributes,wrapMultilineStatementBraces
---enable blankLineAfterImports,isEmpty,markTypes,organizeDeclarations,wrapEnumCases
+--disable blankLinesBetweenChainedFunctions,wrapAttributes,wrapMultilineStatementBraces
+--enable isEmpty,markTypes,organizeDeclarations,wrapEnumCases
