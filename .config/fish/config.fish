@@ -1,6 +1,7 @@
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 test -d "/opt/homebrew/bin" ; and set -g fish_user_paths "/opt/homebrew/bin" $fish_user_paths
 test -d "/opt/homebrew/sbin" ; and set -g fish_user_paths "/opt/homebrew/sbin" $fish_user_paths
+test -d "/Users/puer/.asdf/shims" ; and set -g fish_user_paths "/Users/puer/.asdf/shims" $fish_user_paths
 # test -d "/opt/homebrew/lib" ; and set -g fish_user_paths "/opt/homebrew/lib" $fish_user_paths
 
 # workspace
@@ -12,9 +13,9 @@ set -x mtc_hd "/Users/puer/Developer/bilibili/loktar/srcs/app/mtc-hd-biz/"
 set -q GHCUP_INSTALL_BASE_PREFIX[1]; or set GHCUP_INSTALL_BASE_PREFIX $HOME
 test -f /Users/puer/.ghcup/env ; and set -gx PATH $HOME/.cabal/bin /Users/puer/.ghcup/bin $PATH
 
-# add openjdk@11
-set -g fish_user_paths "/opt/homebrew/opt/openjdk/bin" $fish_user_paths
-set -gx CPPFLAGS "-I/opt/homebrew/opt/openjdk/include"
+# add openjdk@17
+# set -gx JAVA_HOME (/usr/libexec/java_home -v 17)
+# set -gx PATH $JAVA_HOME/bin $PATH
 set -x GPG_TTY (tty)
 
 # golang
